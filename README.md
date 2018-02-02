@@ -38,13 +38,13 @@ My quiz app includes the following contents:
 Including the name of the app, and a button for entering the quiz.
 
 
-<img src="/images/1.png" alt="Drawing" style="width: 300px; height:500px"/>
+![image](/images/1.png)  
 
 #### Introduction
 
 A short paragraph introducing the quiz and a button for starting the quiz.
 
-<img src="/images/2.png" alt="Drawing" style="width: 300px; height:500px"/>
+![image](/images/2.png)
 
 #### Quiz
 
@@ -52,31 +52,28 @@ Including 7 single-answer questions, 1 multiple-answer question and 2 blank-fill
 
 Single-answer questions use radio button groups where only one option is the correct answer.
 
-<img src="/images/3.png" alt="Drawing" style="width: 300px; height:500px"/>
+![image](/images/3.png)
 
 Multiple-answer question uses checkbox view where multiple options may be correct.
 
 
-<img src="/images/4.png" alt="Drawing" style="width: 300px; height:500px"/>
+![image](/images/4.png)
 
 Blank-filling questions use editText views.
 
-<img src="/images/5.png" alt="Drawing" style="width: 300px; height:500px"/>
-
+![image](/images/5.png)
 
 #### Ending Page
 
 Displaying score in a toast message and collecting user's name and email so that the quiz result can be sent to the user.  
 
-<img src="/images/6.png" alt="Drawing" style="width: 300px; height:500px"/>
-
+![image](/images/6.png)
 
 #### Result page
 
 A scrollView displaying a summary of the quiz, including which answers are correct or wrong. Providing the email option, too.
 
-<img src="/images/7.png" alt="Drawing" style="width: 300px; height:500px"/>
-
+![image](/images/7.png)
 
 The App utilizes a combination of LinearLayout, RelativeLayout and ScrollView for the layout and a variety of textView, checkBox, radioButton, button, and editText for presenting different components of the app.
 
@@ -91,21 +88,20 @@ In App, users may want to go back to a previous activity to change his answer, a
 
 For example, we select answer A for question 1, and go next to question 2, and make a selection of C.
 
-<img src="/images/T1.png" alt="Drawing" style="width: 300px; height:500px"/>
+![image](/images/T1.png)
 
-<img src="/images/T2.png" alt="Drawing" style="width: 300px; height:500px"/>
+![image](/images/T2.png)
 
 Then we click "PREV" to return to question 1 and it shows what we chose earlier:
 
-<img src="/images/T1.png" alt="Drawing" style="width: 300px; height:500px"/>
+![image](/images/T1.png)
 
 And we change it into option b:
-
-<img src="/images/T3.png" alt="Drawing" style="width: 300px; height:500px"/>
+![image](/images/T3.png)
 
 We click "NEXT" to return to question 2, and can see our selection remains:
 
-<img src="/images/T2.png" alt="Drawing" style="width: 300px; height:500px"/>
+![image](/images/T2.png)
 
 To enable this feature,I added some code to the java scripts.
 
@@ -201,11 +197,11 @@ To restart, I use the following code:
 
 I also made a Chinese version of this app:
 
-<img src="/images/8.png" alt="Drawing" style="width: 300px; height:500px"/>
+![image](/images/8.png)
 
-<img src="/images/10.png" alt="Drawing" style="width: 300px; height:500px"/>
+![image](/images/10.png)
 
-<img src="/images/9.png" alt="Drawing" style="width: 300px; height:500px"/>
+![image](/images/9.png) 
 
 ### 5. Video
 
