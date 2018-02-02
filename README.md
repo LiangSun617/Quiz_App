@@ -74,6 +74,12 @@ A scrollView displaying a summary of the quiz, including which answers are corre
 
 <img src="images/7.PNG" alt="Drawing" style="width: 300px; height:500px"/>
 
+#### Email your summary
+The App generates a summary of the quiz that can be emailed to the user:
+
+<img src="images/11.png" alt="Drawing" style="width: 300px; height:500px"/>
+
+
 The App utilizes a combination of LinearLayout, RelativeLayout and ScrollView for the layout and a variety of textView, checkBox, radioButton, button, and editText for presenting different components of the app.
 
 ### 2. Technical Challenges
