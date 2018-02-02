@@ -37,13 +37,13 @@ My quiz app includes the following contents:
 
 Including the name of the app, and a button for entering the quiz.
 
-<img src="images/1.PNG" style="width: 300px; height:500px"/>
+<img src="images/1.PNG" alt="Drawing" style="width: 300px; height:500px"/>
 
 #### Introduction
 
 A short paragraph introducing the quiz and a button for starting the quiz.
 
-<img src="images/2.PNG" style="width: 300px; height:500px"/>
+<img src="images/2.PNG" alt="Drawing" style="width: 300px; height:500px"/>
 
 #### Quiz
 
@@ -51,28 +51,28 @@ Including 7 single-answer questions, 1 multiple-answer question and 2 blank-fill
 
 Single-answer questions use radio button groups where only one option is the correct answer.
 
-<img src="images/3.PNG" style="width: 300px; height:500px"/>
+<img src="images/3.PNG" alt="Drawing" style="width: 300px; height:500px"/>
 
 Multiple-answer question uses checkbox view where multiple options may be correct.
 
 
-<img src="images/4.PNG" style="width: 300px; height:500px"/>
+<img src="images/4.PNG" alt="Drawing" style="width: 300px; height:500px"/>
 
 Blank-filling questions use editText views.
 
-<img src="images/5.PNG" style="width: 300px; height:500px"/>
+<img src="images/5.PNG" alt="Drawing" style="width: 300px; height:500px"/>
 
 #### Ending Page
 
 Displaying score in a toast message and collecting user's name and email so that the quiz result can be sent to the user.  
 
-<img src="images/6.PNG" style="width: 300px; height:500px"/>
+<img src="images/6.PNG" alt="Drawing" style="width: 300px; height:500px"/>
 
 #### Result page
 
 A scrollView displaying a summary of the quiz, including which answers are correct or wrong. Providing the email option, too.
 
-<img src="images/7.PNG" style="width: 300px; height:500px"/>
+<img src="images/7.PNG" alt="Drawing" style="width: 300px; height:500px"/>
 
 The App utilizes a combination of LinearLayout, RelativeLayout and ScrollView for the layout and a variety of textView, checkBox, radioButton, button, and editText for presenting different components of the app.
 
@@ -179,11 +179,11 @@ To restart, I use the following code:
 
 I also made a Chinese version of this app:
 
-<img src="images/8.png" style="width: 300px; height:500px"/>
+<img src="images/8.png" alt="Drawing" style="width: 300px; height:500px"/>
 
-<img src="images/10.png" style="width: 300px; height:500px"/>
+<img src="images/10.png" alt="Drawing" style="width: 300px; height:500px"/>
 
-<img src="images/9.png" style="width: 300px; height:500px"/>
+<img src="images/9.png" alt="Drawing" style="width: 300px; height:500px"/>
 
 ### 5. Video
 
