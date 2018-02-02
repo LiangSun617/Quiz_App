@@ -37,14 +37,13 @@ My quiz app includes the following contents:
 
 Including the name of the app, and a button for entering the quiz.
 
-
-![image](/images/1.PNG)  
+<img src="images/1.PNG" style="width: 300px; height:500px"/>
 
 #### Introduction
 
 A short paragraph introducing the quiz and a button for starting the quiz.
 
-![image](/images/2.PNG)
+<img src="images/2.PNG" style="width: 300px; height:500px"/>
 
 #### Quiz
 
@@ -52,28 +51,28 @@ Including 7 single-answer questions, 1 multiple-answer question and 2 blank-fill
 
 Single-answer questions use radio button groups where only one option is the correct answer.
 
-![image](/images/3.PNG)
+<img src="images/3.PNG" style="width: 300px; height:500px"/>
 
 Multiple-answer question uses checkbox view where multiple options may be correct.
 
 
-![image](/images/4.PNG)
+<img src="images/4.PNG" style="width: 300px; height:500px"/>
 
 Blank-filling questions use editText views.
 
-![image](/images/5.PNG)
+<img src="images/5.PNG" style="width: 300px; height:500px"/>
 
 #### Ending Page
 
 Displaying score in a toast message and collecting user's name and email so that the quiz result can be sent to the user.  
 
-![image](/images/6.PNG)
+<img src="images/6.PNG" style="width: 300px; height:500px"/>
 
 #### Result page
 
 A scrollView displaying a summary of the quiz, including which answers are correct or wrong. Providing the email option, too.
 
-![image](/images/7.PNG)
+<img src="images/7.PNG" style="width: 300px; height:500px"/>
 
 The App utilizes a combination of LinearLayout, RelativeLayout and ScrollView for the layout and a variety of textView, checkBox, radioButton, button, and editText for presenting different components of the app.
 
@@ -86,24 +85,7 @@ In addition to what we learned from the course, I have come across challenges wh
 
 In App, users may want to go back to a previous activity to change his answer, and go back to where he left and continue to finish the quiz. Therefore, it is important to know how to retain activity state when pressing "PREV" and "NEXT" in the app.
 
-For example, we select answer A for question 1, and go next to question 2, and make a selection of C.
-
-![image](/images/T1.PNG)
-
-![image](/images/T2.PNG)
-
-Then we click "PREV" to return to question 1 and it shows what we chose earlier:
-
-![image](/images/T1.PNG)
-
-And we change it into option b:
-![image](/images/T3.PNG)
-
-We click "NEXT" to return to question 2, and can see our selection remains:
-
-![image](/images/T2.PNG)
-
-To enable this feature,I added some code to the java scripts.
+To enable this feature, I added some code to the java scripts.
 
 For example, in the java script of question 1:
 
@@ -145,7 +127,7 @@ In question 2:
 
 #### Pass variables to the result page activity
 
-I use SharedPreferences to store and retrieve variables across activities. It is very helpful when there are are multiple activities. By doing so, we don't need to pass the variable from the first activity to the second, and so on, until the last activity.
+I use SharedPreferences to store and retrieve variables across activities. It is very helpful when there are multiple activities. By doing so, we don't need to pass the variable from the first activity to the second, and so on, until the last activity.
 
 For example, in question 1:
 
@@ -197,11 +179,11 @@ To restart, I use the following code:
 
 I also made a Chinese version of this app:
 
-![image](/images/8.png)
+<img src="images/8.png" style="width: 300px; height:500px"/>
 
-![image](/images/10.png)
+<img src="images/10.png" style="width: 300px; height:500px"/>
 
-![image](/images/9.png)
+<img src="images/9.png" style="width: 300px; height:500px"/>
 
 ### 5. Video
 
