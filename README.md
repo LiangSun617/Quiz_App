@@ -36,46 +36,46 @@ My quiz app includes the following contents:
 #### Starting Page
 
 Including the name of the app, and a button for entering the quiz.
- 
 
-<img src="1.png" alt="Drawing" style="width: 300px; height:500px"/>
-    
+
+<img src="/images/1.png" alt="Drawing" style="width: 300px; height:500px"/>
+
 #### Introduction
 
 A short paragraph introducing the quiz and a button for starting the quiz.
 
-<img src="2.png" alt="Drawing" style="width: 300px; height:500px"/>
-    
+<img src="/images/2.png" alt="Drawing" style="width: 300px; height:500px"/>
+
 #### Quiz
 
 Including 7 single-answer questions, 1 multiple-answer question and 2 blank-filling questions.
 
 Single-answer questions use radio button groups where only one option is the correct answer.
 
-<img src="3.png" alt="Drawing" style="width: 300px; height:500px"/>
+<img src="/images/3.png" alt="Drawing" style="width: 300px; height:500px"/>
 
 Multiple-answer question uses checkbox view where multiple options may be correct.
 
 
-<img src="4.png" alt="Drawing" style="width: 300px; height:500px"/>
+<img src="/images/4.png" alt="Drawing" style="width: 300px; height:500px"/>
 
 Blank-filling questions use editText views.
 
-<img src="5.png" alt="Drawing" style="width: 300px; height:500px"/>
+<img src="/images/5.png" alt="Drawing" style="width: 300px; height:500px"/>
 
 
-#### Ending Page 
+#### Ending Page
 
 Displaying score in a toast message and collecting user's name and email so that the quiz result can be sent to the user.  
 
-<img src="6.png" alt="Drawing" style="width: 300px; height:500px"/>
+<img src="/images/6.png" alt="Drawing" style="width: 300px; height:500px"/>
 
-    
+
 #### Result page
 
 A scrollView displaying a summary of the quiz, including which answers are correct or wrong. Providing the email option, too.
 
-<img src="7.png" alt="Drawing" style="width: 300px; height:500px"/>
+<img src="/images/7.png" alt="Drawing" style="width: 300px; height:500px"/>
 
 
 The App utilizes a combination of LinearLayout, RelativeLayout and ScrollView for the layout and a variety of textView, checkBox, radioButton, button, and editText for presenting different components of the app.
@@ -89,21 +89,23 @@ In addition to what we learned from the course, I have come across challenges wh
 
 In App, users may want to go back to a previous activity to change his answer, and go back to where he left and continue to finish the quiz. Therefore, it is important to know how to retain activity state when pressing "PREV" and "NEXT" in the app.
 
-For example, we select answer A for question 1, and go next to question 2, and make a selection of C. 
+For example, we select answer A for question 1, and go next to question 2, and make a selection of C.
 
-<img src="T1.png" alt="Drawing" style="width: 300px; height:500px"/>
+<img src="/images/T1.png" alt="Drawing" style="width: 300px; height:500px"/>
 
-<img src="T2.png" alt="Drawing" style="width: 300px; height:500px"/>
+<img src="/images/T2.png" alt="Drawing" style="width: 300px; height:500px"/>
 
 Then we click "PREV" to return to question 1 and it shows what we chose earlier:
-<img src="T1.png" alt="Drawing" style="width: 300px; height:500px"/>
+
+<img src="/images/T1.png" alt="Drawing" style="width: 300px; height:500px"/>
 
 And we change it into option b:
-<img src="T3.png" alt="Drawing" style="width: 300px; height:500px"/>
+
+<img src="/images/T3.png" alt="Drawing" style="width: 300px; height:500px"/>
 
 We click "NEXT" to return to question 2, and can see our selection remains:
 
-<img src="T2.png" alt="Drawing" style="width: 300px; height:500px"/>
+<img src="/images/T2.png" alt="Drawing" style="width: 300px; height:500px"/>
 
 To enable this feature,I added some code to the java scripts.
 
@@ -192,18 +194,18 @@ To restart, I use the following code:
         startActivity(pageEight);
 
     }
-    
+
 ```
 
 ### 4. A Second Lauguage Version
 
 I also made a Chinese version of this app:
 
-<img src="8.png" alt="Drawing" style="width: 300px; height:500px"/>
+<img src="/images/8.png" alt="Drawing" style="width: 300px; height:500px"/>
 
-<img src="10.png" alt="Drawing" style="width: 300px; height:500px"/>
+<img src="/images/10.png" alt="Drawing" style="width: 300px; height:500px"/>
 
-<img src="9.png" alt="Drawing" style="width: 300px; height:500px"/>
+<img src="/images/9.png" alt="Drawing" style="width: 300px; height:500px"/>
 
 ### 5. Video
 
