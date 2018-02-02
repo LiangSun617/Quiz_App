@@ -38,13 +38,13 @@ My quiz app includes the following contents:
 Including the name of the app, and a button for entering the quiz.
 
 
-![image](/images/1.png)  
+![image](/images/1.PNG)  
 
 #### Introduction
 
 A short paragraph introducing the quiz and a button for starting the quiz.
 
-![image](/images/2.png)
+![image](/images/2.PNG)
 
 #### Quiz
 
@@ -52,28 +52,28 @@ Including 7 single-answer questions, 1 multiple-answer question and 2 blank-fill
 
 Single-answer questions use radio button groups where only one option is the correct answer.
 
-![image](/images/3.png)
+![image](/images/3.PNG)
 
 Multiple-answer question uses checkbox view where multiple options may be correct.
 
 
-![image](/images/4.png)
+![image](/images/4.PNG)
 
 Blank-filling questions use editText views.
 
-![image](/images/5.png)
+![image](/images/5.PNG)
 
 #### Ending Page
 
 Displaying score in a toast message and collecting user's name and email so that the quiz result can be sent to the user.  
 
-![image](/images/6.png)
+![image](/images/6.PNG)
 
 #### Result page
 
 A scrollView displaying a summary of the quiz, including which answers are correct or wrong. Providing the email option, too.
 
-![image](/images/7.png)
+![image](/images/7.PNG)
 
 The App utilizes a combination of LinearLayout, RelativeLayout and ScrollView for the layout and a variety of textView, checkBox, radioButton, button, and editText for presenting different components of the app.
 
@@ -88,20 +88,20 @@ In App, users may want to go back to a previous activity to change his answer, a
 
 For example, we select answer A for question 1, and go next to question 2, and make a selection of C.
 
-![image](/images/T1.png)
+![image](/images/T1.PNG)
 
-![image](/images/T2.png)
+![image](/images/T2.PNG)
 
 Then we click "PREV" to return to question 1 and it shows what we chose earlier:
 
-![image](/images/T1.png)
+![image](/images/T1.PNG)
 
 And we change it into option b:
-![image](/images/T3.png)
+![image](/images/T3.PNG)
 
 We click "NEXT" to return to question 2, and can see our selection remains:
 
-![image](/images/T2.png)
+![image](/images/T2.PNG)
 
 To enable this feature,I added some code to the java scripts.
 
@@ -201,7 +201,7 @@ I also made a Chinese version of this app:
 
 ![image](/images/10.png)
 
-![image](/images/9.png) 
+![image](/images/9.png)
 
 ### 5. Video
 
