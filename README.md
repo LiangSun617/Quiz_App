@@ -179,11 +179,11 @@ To restart, I use the following code:
 
 I also made a Chinese version of this app:
 
-<img src="images/8.png" style="width: 30px; height:50px"/>
+<img src="images/8.png" style="width: 300px; height:500px"/>
 
-<img src="images/10.png" style="width: 30px; height:50px"/>
+<img src="images/10.png" style="width: 300px; height:500px"/>
 
-<img src="images/9.png" style="width: 30px; height:50px"/>
+<img src="images/9.png" style="width: 300px; height:500px"/>
 
 ### 5. Video
 
